@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6210CAB1D866B9E0093834D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CAA1D866B9E0093834D /* main.m */; };
+		E6210CAE1D866B9E0093834D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CAD1D866B9E0093834D /* AppDelegate.m */; };
+		E6210CB11D866B9E0093834D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CB01D866B9E0093834D /* ViewController.m */; };
+		E6210CB41D866B9E0093834D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6210CB21D866B9E0093834D /* Main.storyboard */; };
+		E6210CB71D866B9E0093834D /* OYWorkGit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6210CB51D866B9E0093834D /* OYWorkGit.xcdatamodeld */; };
+		E6210CB91D866B9E0093834D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6210CB81D866B9E0093834D /* Assets.xcassets */; };
+		E6210CBC1D866B9E0093834D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6210CBA1D866B9E0093834D /* LaunchScreen.storyboard */; };
+		E6210CC71D866B9E0093834D /* OYWorkGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CC61D866B9E0093834D /* OYWorkGitTests.m */; };
+		E6210CD21D866B9E0093834D /* OYWorkGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CD11D866B9E0093834D /* OYWorkGitUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6210CC31D866B9E0093834D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6210C9E1D866B9E0093834D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6210CA51D866B9E0093834D;
+			remoteInfo = OYWorkGit;
+		};
+		E6210CCE1D866B9E0093834D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6210C9E1D866B9E0093834D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6210CA51D866B9E0093834D;
+			remoteInfo = OYWorkGit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6210CA61D866B9E0093834D /* OYWorkGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OYWorkGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6210CAA1D866B9E0093834D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6210CAC1D866B9E0093834D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6210CAD1D866B9E0093834D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6210CAF1D866B9E0093834D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6210CB01D866B9E0093834D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6210CB31D866B9E0093834D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6210CB61D866B9E0093834D /* OYWorkGit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OYWorkGit.xcdatamodel; sourceTree = "<group>"; };
+		E6210CB81D866B9E0093834D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6210CBB1D866B9E0093834D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6210CBD1D866B9E0093834D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6210CC21D866B9E0093834D /* OYWorkGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OYWorkGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6210CC61D866B9E0093834D /* OYWorkGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYWorkGitTests.m; sourceTree = "<group>"; };
+		E6210CC81D866B9E0093834D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6210CCD1D866B9E0093834D /* OYWorkGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OYWorkGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6210CD11D866B9E0093834D /* OYWorkGitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYWorkGitUITests.m; sourceTree = "<group>"; };
+		E6210CD31D866B9E0093834D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6210CA31D866B9E0093834D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6210CBF1D866B9E0093834D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6210CCA1D866B9E0093834D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6210C9D1D866B9E0093834D = {
+			isa = PBXGroup;
+			children = (
+				E6210CA81D866B9E0093834D /* OYWorkGit */,
+				E6210CC51D866B9E0093834D /* OYWorkGitTests */,
+				E6210CD01D866B9E0093834D /* OYWorkGitUITests */,
+				E6210CA71D866B9E0093834D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6210CA71D866B9E0093834D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6210CA61D866B9E0093834D /* OYWorkGit.app */,
+				E6210CC21D866B9E0093834D /* OYWorkGitTests.xctest */,
+				E6210CCD1D866B9E0093834D /* OYWorkGitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6210CA81D866B9E0093834D /* OYWorkGit */ = {
+			isa = PBXGroup;
+			children = (
+				E6210CAC1D866B9E0093834D /* AppDelegate.h */,
+				E6210CAD1D866B9E0093834D /* AppDelegate.m */,
+				E6210CAF1D866B9E0093834D /* ViewController.h */,
+				E6210CB01D866B9E0093834D /* ViewController.m */,
+				E6210CB21D866B9E0093834D /* Main.storyboard */,
+				E6210CB81D866B9E0093834D /* Assets.xcassets */,
+				E6210CBA1D866B9E0093834D /* LaunchScreen.storyboard */,
+				E6210CBD1D866B9E0093834D /* Info.plist */,
+				E6210CB51D866B9E0093834D /* OYWorkGit.xcdatamodeld */,
+				E6210CA91D866B9E0093834D /* Supporting Files */,
+			);
+			path = OYWorkGit;
+			sourceTree = "<group>";
+		};
+		E6210CA91D866B9E0093834D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6210CAA1D866B9E0093834D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6210CC51D866B9E0093834D /* OYWorkGitTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6210CC61D866B9E0093834D /* OYWorkGitTests.m */,
+				E6210CC81D866B9E0093834D /* Info.plist */,
+			);
+			path = OYWorkGitTests;
+			sourceTree = "<group>";
+		};
+		E6210CD01D866B9E0093834D /* OYWorkGitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6210CD11D866B9E0093834D /* OYWorkGitUITests.m */,
+				E6210CD31D866B9E0093834D /* Info.plist */,
+			);
+			path = OYWorkGitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6210CA51D866B9E0093834D /* OYWorkGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6210CD61D866B9E0093834D /* Build configuration list for PBXNativeTarget "OYWorkGit" */;
+			buildPhases = (
+				E6210CA21D866B9E0093834D /* Sources */,
+				E6210CA31D866B9E0093834D /* Frameworks */,
+				E6210CA41D866B9E0093834D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OYWorkGit;
+			productName = OYWorkGit;
+			productReference = E6210CA61D866B9E0093834D /* OYWorkGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6210CC11D866B9E0093834D /* OYWorkGitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6210CD91D866B9E0093834D /* Build configuration list for PBXNativeTarget "OYWorkGitTests" */;
+			buildPhases = (
+				E6210CBE1D866B9E0093834D /* Sources */,
+				E6210CBF1D866B9E0093834D /* Frameworks */,
+				E6210CC01D866B9E0093834D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6210CC41D866B9E0093834D /* PBXTargetDependency */,
+			);
+			name = OYWorkGitTests;
+			productName = OYWorkGitTests;
+			productReference = E6210CC21D866B9E0093834D /* OYWorkGitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6210CCC1D866B9E0093834D /* OYWorkGitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6210CDC1D866B9E0093834D /* Build configuration list for PBXNativeTarget "OYWorkGitUITests" */;
+			buildPhases = (
+				E6210CC91D866B9E0093834D /* Sources */,
+				E6210CCA1D866B9E0093834D /* Frameworks */,
+				E6210CCB1D866B9E0093834D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6210CCF1D866B9E0093834D /* PBXTargetDependency */,
+			);
+			name = OYWorkGitUITests;
+			productName = OYWorkGitUITests;
+			productReference = E6210CCD1D866B9E0093834D /* OYWorkGitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6210C9E1D866B9E0093834D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ouyang;
+				TargetAttributes = {
+					E6210CA51D866B9E0093834D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E6210CC11D866B9E0093834D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E6210CA51D866B9E0093834D;
+					};
+					E6210CCC1D866B9E0093834D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E6210CA51D866B9E0093834D;
+					};
+				};
+			};
+			buildConfigurationList = E6210CA11D866B9E0093834D /* Build configuration list for PBXProject "OYWorkGit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6210C9D1D866B9E0093834D;
+			productRefGroup = E6210CA71D866B9E0093834D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6210CA51D866B9E0093834D /* OYWorkGit */,
+				E6210CC11D866B9E0093834D /* OYWorkGitTests */,
+				E6210CCC1D866B9E0093834D /* OYWorkGitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6210CA41D866B9E0093834D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6210CBC1D866B9E0093834D /* LaunchScreen.storyboard in Resources */,
+				E6210CB91D866B9E0093834D /* Assets.xcassets in Resources */,
+				E6210CB41D866B9E0093834D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6210CC01D866B9E0093834D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6210CCB1D866B9E0093834D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6210CA21D866B9E0093834D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6210CB11D866B9E0093834D /* ViewController.m in Sources */,
+				E6210CB71D866B9E0093834D /* OYWorkGit.xcdatamodeld in Sources */,
+				E6210CAE1D866B9E0093834D /* AppDelegate.m in Sources */,
+				E6210CAB1D866B9E0093834D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6210CBE1D866B9E0093834D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6210CC71D866B9E0093834D /* OYWorkGitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6210CC91D866B9E0093834D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6210CD21D866B9E0093834D /* OYWorkGitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6210CC41D866B9E0093834D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6210CA51D866B9E0093834D /* OYWorkGit */;
+			targetProxy = E6210CC31D866B9E0093834D /* PBXContainerItemProxy */;
+		};
+		E6210CCF1D866B9E0093834D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6210CA51D866B9E0093834D /* OYWorkGit */;
+			targetProxy = E6210CCE1D866B9E0093834D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6210CB21D866B9E0093834D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6210CB31D866B9E0093834D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6210CBA1D866B9E0093834D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6210CBB1D866B9E0093834D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6210CD41D866B9E0093834D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6210CD51D866B9E0093834D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6210CD71D866B9E0093834D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OYWorkGit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gaojun.OYWorkGit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6210CD81D866B9E0093834D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OYWorkGit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gaojun.OYWorkGit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E6210CDA1D866B9E0093834D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OYWorkGitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gaojun.OYWorkGitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OYWorkGit.app/OYWorkGit";
+			};
+			name = Debug;
+		};
+		E6210CDB1D866B9E0093834D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OYWorkGitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gaojun.OYWorkGitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OYWorkGit.app/OYWorkGit";
+			};
+			name = Release;
+		};
+		E6210CDD1D866B9E0093834D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OYWorkGitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gaojun.OYWorkGitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OYWorkGit;
+			};
+			name = Debug;
+		};
+		E6210CDE1D866B9E0093834D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OYWorkGitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gaojun.OYWorkGitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OYWorkGit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6210CA11D866B9E0093834D /* Build configuration list for PBXProject "OYWorkGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6210CD41D866B9E0093834D /* Debug */,
+				E6210CD51D866B9E0093834D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6210CD61D866B9E0093834D /* Build configuration list for PBXNativeTarget "OYWorkGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6210CD71D866B9E0093834D /* Debug */,
+				E6210CD81D866B9E0093834D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6210CD91D866B9E0093834D /* Build configuration list for PBXNativeTarget "OYWorkGitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6210CDA1D866B9E0093834D /* Debug */,
+				E6210CDB1D866B9E0093834D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6210CDC1D866B9E0093834D /* Build configuration list for PBXNativeTarget "OYWorkGitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6210CDD1D866B9E0093834D /* Debug */,
+				E6210CDE1D866B9E0093834D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6210CB51D866B9E0093834D /* OYWorkGit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6210CB61D866B9E0093834D /* OYWorkGit.xcdatamodel */,
+			);
+			currentVersion = E6210CB61D866B9E0093834D /* OYWorkGit.xcdatamodel */;
+			path = OYWorkGit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6210C9E1D866B9E0093834D /* Project object */;
+}
