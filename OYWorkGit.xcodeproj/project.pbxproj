@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C245397291C5C7DDA63357A /* Pods_OYWorkGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AB464C91A01590BE89BC7B /* Pods_OYWorkGit.framework */; };
 		E6210CAB1D866B9E0093834D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CAA1D866B9E0093834D /* main.m */; };
-		E6210CAE1D866B9E0093834D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CAD1D866B9E0093834D /* AppDelegate.m */; };
 		E6210CB11D866B9E0093834D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CB01D866B9E0093834D /* ViewController.m */; };
 		E6210CB41D866B9E0093834D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6210CB21D866B9E0093834D /* Main.storyboard */; };
 		E6210CB71D866B9E0093834D /* OYWorkGit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6210CB51D866B9E0093834D /* OYWorkGit.xcdatamodeld */; };
@@ -16,6 +16,19 @@
 		E6210CBC1D866B9E0093834D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6210CBA1D866B9E0093834D /* LaunchScreen.storyboard */; };
 		E6210CC71D866B9E0093834D /* OYWorkGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CC61D866B9E0093834D /* OYWorkGitTests.m */; };
 		E6210CD21D866B9E0093834D /* OYWorkGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CD11D866B9E0093834D /* OYWorkGitUITests.m */; };
+		E6210D181D867F800093834D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6210CE31D867F800093834D /* LaunchScreen.storyboard */; };
+		E6210D191D867F800093834D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6210CE51D867F800093834D /* Main.storyboard */; };
+		E6210D1A1D867F800093834D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CE91D867F800093834D /* AppDelegate.m */; };
+		E6210D1B1D867F800093834D /* OY_ParentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CEB1D867F800093834D /* OY_ParentsController.m */; };
+		E6210D1C1D867F800093834D /* OY_ParentsNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CED1D867F800093834D /* OY_ParentsNaviController.m */; };
+		E6210D1D1D867F800093834D /* NSMutableAttributedString+OYAttributedStrig.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CF01D867F800093834D /* NSMutableAttributedString+OYAttributedStrig.m */; };
+		E6210D1E1D867F800093834D /* NSString+OYString.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CF21D867F800093834D /* NSString+OYString.m */; };
+		E6210D2B1D867F800093834D /* Row1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D0D1D867F800093834D /* Row1ViewController.m */; };
+		E6210D2C1D867F800093834D /* Row2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D0F1D867F800093834D /* Row2ViewController.m */; };
+		E6210D2D1D867F800093834D /* Row3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D111D867F800093834D /* Row3ViewController.m */; };
+		E6210D2E1D867F800093834D /* Row4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D131D867F800093834D /* Row4ViewController.m */; };
+		E6210D2F1D867F800093834D /* Row5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D151D867F800093834D /* Row5ViewController.m */; };
+		E6210D301D867F800093834D /* Row6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D171D867F800093834D /* Row6ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FEC9358A8D1735BE07BD387 /* Pods-OYWorkGit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OYWorkGit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OYWorkGit/Pods-OYWorkGit.debug.xcconfig"; sourceTree = "<group>"; };
+		85AB464C91A01590BE89BC7B /* Pods_OYWorkGit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OYWorkGit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91ADFBDABC5664357D54217C /* Pods-OYWorkGit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OYWorkGit.release.xcconfig"; path = "Pods/Target Support Files/Pods-OYWorkGit/Pods-OYWorkGit.release.xcconfig"; sourceTree = "<group>"; };
 		E6210CA61D866B9E0093834D /* OYWorkGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OYWorkGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6210CAA1D866B9E0093834D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E6210CAC1D866B9E0093834D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E6210CAD1D866B9E0093834D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E6210CAF1D866B9E0093834D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E6210CB01D866B9E0093834D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E6210CB31D866B9E0093834D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +67,30 @@
 		E6210CCD1D866B9E0093834D /* OYWorkGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OYWorkGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6210CD11D866B9E0093834D /* OYWorkGitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYWorkGitUITests.m; sourceTree = "<group>"; };
 		E6210CD31D866B9E0093834D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6210CE41D867F800093834D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6210CE61D867F800093834D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		E6210CE81D867F800093834D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6210CE91D867F800093834D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6210CEA1D867F800093834D /* OY_ParentsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OY_ParentsController.h; sourceTree = "<group>"; };
+		E6210CEB1D867F800093834D /* OY_ParentsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OY_ParentsController.m; sourceTree = "<group>"; };
+		E6210CEC1D867F800093834D /* OY_ParentsNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OY_ParentsNaviController.h; sourceTree = "<group>"; };
+		E6210CED1D867F800093834D /* OY_ParentsNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OY_ParentsNaviController.m; sourceTree = "<group>"; };
+		E6210CEF1D867F800093834D /* NSMutableAttributedString+OYAttributedStrig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+OYAttributedStrig.h"; sourceTree = "<group>"; };
+		E6210CF01D867F800093834D /* NSMutableAttributedString+OYAttributedStrig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+OYAttributedStrig.m"; sourceTree = "<group>"; };
+		E6210CF11D867F800093834D /* NSString+OYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OYString.h"; sourceTree = "<group>"; };
+		E6210CF21D867F800093834D /* NSString+OYString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OYString.m"; sourceTree = "<group>"; };
+		E6210D0C1D867F800093834D /* Row1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row1ViewController.h; sourceTree = "<group>"; };
+		E6210D0D1D867F800093834D /* Row1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row1ViewController.m; sourceTree = "<group>"; };
+		E6210D0E1D867F800093834D /* Row2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row2ViewController.h; sourceTree = "<group>"; };
+		E6210D0F1D867F800093834D /* Row2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row2ViewController.m; sourceTree = "<group>"; };
+		E6210D101D867F800093834D /* Row3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row3ViewController.h; sourceTree = "<group>"; };
+		E6210D111D867F800093834D /* Row3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row3ViewController.m; sourceTree = "<group>"; };
+		E6210D121D867F800093834D /* Row4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row4ViewController.h; sourceTree = "<group>"; };
+		E6210D131D867F800093834D /* Row4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row4ViewController.m; sourceTree = "<group>"; };
+		E6210D141D867F800093834D /* Row5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row5ViewController.h; sourceTree = "<group>"; };
+		E6210D151D867F800093834D /* Row5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row5ViewController.m; sourceTree = "<group>"; };
+		E6210D161D867F800093834D /* Row6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row6ViewController.h; sourceTree = "<group>"; };
+		E6210D171D867F800093834D /* Row6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row6ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C245397291C5C7DDA63357A /* Pods_OYWorkGit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +119,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D3CBD03537729523B4CC728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85AB464C91A01590BE89BC7B /* Pods_OYWorkGit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D726CA76AC741847786684B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC9358A8D1735BE07BD387 /* Pods-OYWorkGit.debug.xcconfig */,
+				91ADFBDABC5664357D54217C /* Pods-OYWorkGit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E6210C9D1D866B9E0093834D = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +143,8 @@
 				E6210CC51D866B9E0093834D /* OYWorkGitTests */,
 				E6210CD01D866B9E0093834D /* OYWorkGitUITests */,
 				E6210CA71D866B9E0093834D /* Products */,
+				D726CA76AC741847786684B1 /* Pods */,
+				9D3CBD03537729523B4CC728 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +161,10 @@
 		E6210CA81D866B9E0093834D /* OYWorkGit */ = {
 			isa = PBXGroup;
 			children = (
-				E6210CAC1D866B9E0093834D /* AppDelegate.h */,
-				E6210CAD1D866B9E0093834D /* AppDelegate.m */,
+				E6210CE21D867F800093834D /* Base.lproj */,
+				E6210CE71D867F800093834D /* BaseClass */,
+				E6210CEE1D867F800093834D /* Category */,
+				E6210CF31D867F800093834D /* FunctionClass */,
 				E6210CAF1D866B9E0093834D /* ViewController.h */,
 				E6210CB01D866B9E0093834D /* ViewController.m */,
 				E6210CB21D866B9E0093834D /* Main.storyboard */,
@@ -143,6 +203,58 @@
 			path = OYWorkGitUITests;
 			sourceTree = "<group>";
 		};
+		E6210CE21D867F800093834D /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E6210CE31D867F800093834D /* LaunchScreen.storyboard */,
+				E6210CE51D867F800093834D /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		E6210CE71D867F800093834D /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				E6210CE81D867F800093834D /* AppDelegate.h */,
+				E6210CE91D867F800093834D /* AppDelegate.m */,
+				E6210CEA1D867F800093834D /* OY_ParentsController.h */,
+				E6210CEB1D867F800093834D /* OY_ParentsController.m */,
+				E6210CEC1D867F800093834D /* OY_ParentsNaviController.h */,
+				E6210CED1D867F800093834D /* OY_ParentsNaviController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		E6210CEE1D867F800093834D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E6210CEF1D867F800093834D /* NSMutableAttributedString+OYAttributedStrig.h */,
+				E6210CF01D867F800093834D /* NSMutableAttributedString+OYAttributedStrig.m */,
+				E6210CF11D867F800093834D /* NSString+OYString.h */,
+				E6210CF21D867F800093834D /* NSString+OYString.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E6210CF31D867F800093834D /* FunctionClass */ = {
+			isa = PBXGroup;
+			children = (
+				E6210D0C1D867F800093834D /* Row1ViewController.h */,
+				E6210D0D1D867F800093834D /* Row1ViewController.m */,
+				E6210D0E1D867F800093834D /* Row2ViewController.h */,
+				E6210D0F1D867F800093834D /* Row2ViewController.m */,
+				E6210D101D867F800093834D /* Row3ViewController.h */,
+				E6210D111D867F800093834D /* Row3ViewController.m */,
+				E6210D121D867F800093834D /* Row4ViewController.h */,
+				E6210D131D867F800093834D /* Row4ViewController.m */,
+				E6210D141D867F800093834D /* Row5ViewController.h */,
+				E6210D151D867F800093834D /* Row5ViewController.m */,
+				E6210D161D867F800093834D /* Row6ViewController.h */,
+				E6210D171D867F800093834D /* Row6ViewController.m */,
+			);
+			path = FunctionClass;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6210CD61D866B9E0093834D /* Build configuration list for PBXNativeTarget "OYWorkGit" */;
 			buildPhases = (
+				F95EFEE9D3AC9EBEB865CCAD /* [CP] Check Pods Manifest.lock */,
 				E6210CA21D866B9E0093834D /* Sources */,
 				E6210CA31D866B9E0093834D /* Frameworks */,
 				E6210CA41D866B9E0093834D /* Resources */,
+				C2E189BAC996161775060EB3 /* [CP] Embed Pods Frameworks */,
+				4001A770526ED97AC3703CEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +362,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6210CBC1D866B9E0093834D /* LaunchScreen.storyboard in Resources */,
+				E6210D191D867F800093834D /* Main.storyboard in Resources */,
+				E6210D181D867F800093834D /* LaunchScreen.storyboard in Resources */,
 				E6210CB91D866B9E0093834D /* Assets.xcassets in Resources */,
 				E6210CB41D866B9E0093834D /* Main.storyboard in Resources */,
 			);
@@ -268,15 +385,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4001A770526ED97AC3703CEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OYWorkGit/Pods-OYWorkGit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2E189BAC996161775060EB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OYWorkGit/Pods-OYWorkGit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F95EFEE9D3AC9EBEB865CCAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6210CA21D866B9E0093834D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6210D301D867F800093834D /* Row6ViewController.m in Sources */,
+				E6210D2F1D867F800093834D /* Row5ViewController.m in Sources */,
+				E6210D1E1D867F800093834D /* NSString+OYString.m in Sources */,
+				E6210D1A1D867F800093834D /* AppDelegate.m in Sources */,
 				E6210CB11D866B9E0093834D /* ViewController.m in Sources */,
+				E6210D2D1D867F800093834D /* Row3ViewController.m in Sources */,
 				E6210CB71D866B9E0093834D /* OYWorkGit.xcdatamodeld in Sources */,
-				E6210CAE1D866B9E0093834D /* AppDelegate.m in Sources */,
+				E6210D2C1D867F800093834D /* Row2ViewController.m in Sources */,
+				E6210D2B1D867F800093834D /* Row1ViewController.m in Sources */,
+				E6210D2E1D867F800093834D /* Row4ViewController.m in Sources */,
+				E6210D1B1D867F800093834D /* OY_ParentsController.m in Sources */,
 				E6210CAB1D866B9E0093834D /* main.m in Sources */,
+				E6210D1C1D867F800093834D /* OY_ParentsNaviController.m in Sources */,
+				E6210D1D1D867F800093834D /* NSMutableAttributedString+OYAttributedStrig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +501,22 @@
 				E6210CBB1D866B9E0093834D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E6210CE31D867F800093834D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6210CE41D867F800093834D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E6210CE51D867F800093834D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6210CE61D867F800093834D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -417,8 +608,10 @@
 		};
 		E6210CD71D866B9E0093834D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FEC9358A8D1735BE07BD387 /* Pods-OYWorkGit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Pods/PrefixHeader.pch";
 				INFOPLIST_FILE = OYWorkGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gaojun.OYWorkGit;
@@ -428,8 +621,10 @@
 		};
 		E6210CD81D866B9E0093834D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91ADFBDABC5664357D54217C /* Pods-OYWorkGit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Pods/PrefixHeader.pch";
 				INFOPLIST_FILE = OYWorkGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gaojun.OYWorkGit;
@@ -502,6 +697,7 @@
 				E6210CD81D866B9E0093834D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6210CD91D866B9E0093834D /* Build configuration list for PBXNativeTarget "OYWorkGitTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +706,7 @@
 				E6210CDB1D866B9E0093834D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6210CDC1D866B9E0093834D /* Build configuration list for PBXNativeTarget "OYWorkGitUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +715,7 @@
 				E6210CDE1D866B9E0093834D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

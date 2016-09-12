@@ -1,14 +1,14 @@
 //
 //  ViewController.h
-//  OYWorkGit
+//  OuyangGaojun
 //
-//  Created by Dyang on 16/9/12.
+//  Created by Dyang on 16/8/25.
 //  Copyright © 2016年 Ouyang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : OY_ParentsController
 
 
 @end

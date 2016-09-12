@@ -1,0 +1,6 @@
+framework module Pods_OYWorkGit {
+  umbrella header "Pods-OYWorkGit-umbrella.h"
+
+  export *
+  module * { export * }
+}

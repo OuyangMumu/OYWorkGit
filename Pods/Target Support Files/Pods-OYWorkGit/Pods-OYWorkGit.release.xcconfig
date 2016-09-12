@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/IQKeyboardManager" "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD" "$PODS_CONFIGURATION_BUILD_DIR/MJRefresh" "$PODS_CONFIGURATION_BUILD_DIR/MagicalRecord" "$PODS_CONFIGURATION_BUILD_DIR/Masonry" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage" "$PODS_CONFIGURATION_BUILD_DIR/Wonderful"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/IQKeyboardManager/IQKeyboardManager.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD/MBProgressHUD.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/MJRefresh/MJRefresh.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/MagicalRecord/MagicalRecord.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Masonry/Masonry.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage/SDWebImage.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Wonderful/Wonderful.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "IQKeyboardManager" -framework "MBProgressHUD" -framework "MJRefresh" -framework "MagicalRecord" -framework "Masonry" -framework "SDWebImage" -framework "Wonderful"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

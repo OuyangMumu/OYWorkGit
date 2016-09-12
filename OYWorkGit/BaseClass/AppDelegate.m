@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  OYWorkGit
+//  OuyangGaojun
 //
-//  Created by Dyang on 16/9/12.
+//  Created by Dyang on 16/8/25.
 //  Copyright © 2016年 Ouyang. All rights reserved.
 //
 
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    if (launchOptions[UIApplicationLaunchOptionsLocalNotificationKey]) {
+        UILocalNotification *localNotifi = launchOptions[UIApplicationLaunchOptionsLocalNotificationKey];
+        [self changeLocalNotifi:localNotifi];
+    }
+    
     return YES;
 }
 
@@ -44,6 +50,29 @@
     [self saveContext];
 }
 
+-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification{
+
+    [self changeLocalNotifi:notification];
+}
+
+
+- (void)changeLocalNotifi:(UILocalNotification *)localNotifi{
+    // 如果在前台直接返回
+    if ([UIApplication sharedApplication].applicationState == UIApplicationStateActive) {
+        return;
+    }
+    // 获取通知信息
+//    NSString *selectIndex = localNotifi.userInfo[@"selectIndex"];
+//    // 获取根控制器TabBarController
+//    UITabBarController *rootController = (UITabBarController *)self.window.rootViewController;
+//    // 跳转到指定控制器
+//    rootController.selectedIndex = [selectIndex intValue];
+    
+    NSLog(@"%@",localNotifi.userInfo);
+}
+
+
+
 #pragma mark - Core Data stack
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -51,7 +80,7 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
-    // The directory the application uses to store the Core Data store file. This code uses a directory named "Gaojun.OYWorkGit" in the application's documents directory.
+    // The directory the application uses to store the Core Data store file. This code uses a directory named "Gaojun.OuyangGaojun" in the application's documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
@@ -60,7 +89,7 @@
     if (_managedObjectModel != nil) {
         return _managedObjectModel;
     }
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"OYWorkGit" withExtension:@"momd"];
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"OuyangGaojun" withExtension:@"momd"];
     _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     return _managedObjectModel;
 }
@@ -74,7 +103,7 @@
     // Create the coordinator and store
     
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"OYWorkGit.sqlite"];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"OuyangGaojun.sqlite"];
     NSError *error = nil;
     NSString *failureReason = @"There was an error creating or loading the application's saved data.";
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {

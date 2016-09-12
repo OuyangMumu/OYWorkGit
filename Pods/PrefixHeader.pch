@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  Pods
+//
+//  Created by Dyang on 16/8/25.
+//
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "OY_ParentsNaviController.h"
+#import "OY_ParentsController.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <MJRefresh/MJRefresh.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <MagicalRecord/MagicalRecord.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "NSMutableAttributedString+OYAttributedStrig.h"
+
+#import "OY_DefineClass.h"
+
+#endif /* PrefixHeader_pch */
