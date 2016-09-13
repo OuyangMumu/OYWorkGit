@@ -27,7 +27,7 @@
 -(NSArray *)dataSource{
 
     if (!_dataSource) {
-        _dataSource = @[@"改变一句话中的某些字的颜色",@"正则表达式",@"APP Stroe 评分  ||  单例",@"UITableView分割线",@"注册通知",@"SDWebImage"];
+        _dataSource = @[@"改变一句话中的某些字的颜色",@"正则表达式",@"APP Stroe 评分  ||  单例",@"UITableView分割线",@"注册通知",@"SDWebImage",@"拦截按钮事件"];
     }
     return _dataSource;
 }
@@ -35,7 +35,7 @@
 -(NSArray *)controllerArr{
 
     if (!_controllerArr) {
-        _controllerArr = @[@"Row1ViewController",@"Row2ViewController",@"Row3ViewController",@"Row4ViewController",@"Row5ViewController",@"Row6ViewController"];
+        _controllerArr = @[@"Row1ViewController",@"Row2ViewController",@"Row3ViewController",@"Row4ViewController",@"Row5ViewController",@"Row6ViewController",@"Row7ViewController"];
     }
     return _controllerArr;
 }

@@ -29,6 +29,8 @@
 		E6210D2E1D867F800093834D /* Row4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D131D867F800093834D /* Row4ViewController.m */; };
 		E6210D2F1D867F800093834D /* Row5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D151D867F800093834D /* Row5ViewController.m */; };
 		E6210D301D867F800093834D /* Row6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D171D867F800093834D /* Row6ViewController.m */; };
+		E6D6482F1D8811000031D4AE /* Row7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D6482E1D8811000031D4AE /* Row7ViewController.m */; };
+		E6D648371D8813090031D4AE /* OY_ActionStopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D648361D8813090031D4AE /* OY_ActionStopButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,10 @@
 		E6210D151D867F800093834D /* Row5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row5ViewController.m; sourceTree = "<group>"; };
 		E6210D161D867F800093834D /* Row6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row6ViewController.h; sourceTree = "<group>"; };
 		E6210D171D867F800093834D /* Row6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row6ViewController.m; sourceTree = "<group>"; };
+		E6D6482D1D8811000031D4AE /* Row7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row7ViewController.h; sourceTree = "<group>"; };
+		E6D6482E1D8811000031D4AE /* Row7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row7ViewController.m; sourceTree = "<group>"; };
+		E6D648351D8813090031D4AE /* OY_ActionStopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OY_ActionStopButton.h; sourceTree = "<group>"; };
+		E6D648361D8813090031D4AE /* OY_ActionStopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OY_ActionStopButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +245,15 @@
 		E6210CF31D867F800093834D /* FunctionClass */ = {
 			isa = PBXGroup;
 			children = (
+				E6D648311D8811320031D4AE /* View */,
+				E6D648301D88111E0031D4AE /* ViewController */,
+			);
+			path = FunctionClass;
+			sourceTree = "<group>";
+		};
+		E6D648301D88111E0031D4AE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
 				E6210D0C1D867F800093834D /* Row1ViewController.h */,
 				E6210D0D1D867F800093834D /* Row1ViewController.m */,
 				E6210D0E1D867F800093834D /* Row2ViewController.h */,
@@ -251,8 +266,19 @@
 				E6210D151D867F800093834D /* Row5ViewController.m */,
 				E6210D161D867F800093834D /* Row6ViewController.h */,
 				E6210D171D867F800093834D /* Row6ViewController.m */,
+				E6D6482D1D8811000031D4AE /* Row7ViewController.h */,
+				E6D6482E1D8811000031D4AE /* Row7ViewController.m */,
 			);
-			path = FunctionClass;
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E6D648311D8811320031D4AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6D648351D8813090031D4AE /* OY_ActionStopButton.h */,
+				E6D648361D8813090031D4AE /* OY_ActionStopButton.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,12 +471,14 @@
 				E6210CB11D866B9E0093834D /* ViewController.m in Sources */,
 				E6210D2D1D867F800093834D /* Row3ViewController.m in Sources */,
 				E6210CB71D866B9E0093834D /* OYWorkGit.xcdatamodeld in Sources */,
+				E6D648371D8813090031D4AE /* OY_ActionStopButton.m in Sources */,
 				E6210D2C1D867F800093834D /* Row2ViewController.m in Sources */,
 				E6210D2B1D867F800093834D /* Row1ViewController.m in Sources */,
 				E6210D2E1D867F800093834D /* Row4ViewController.m in Sources */,
 				E6210D1B1D867F800093834D /* OY_ParentsController.m in Sources */,
 				E6210CAB1D866B9E0093834D /* main.m in Sources */,
 				E6210D1C1D867F800093834D /* OY_ParentsNaviController.m in Sources */,
+				E6D6482F1D8811000031D4AE /* Row7ViewController.m in Sources */,
 				E6210D1D1D867F800093834D /* NSMutableAttributedString+OYAttributedStrig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -611,6 +639,7 @@
 			baseConfigurationReference = 3FEC9358A8D1735BE07BD387 /* Pods-OYWorkGit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Pods/PrefixHeader.pch";
 				INFOPLIST_FILE = OYWorkGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -624,6 +653,7 @@
 			baseConfigurationReference = 91ADFBDABC5664357D54217C /* Pods-OYWorkGit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Pods/PrefixHeader.pch";
 				INFOPLIST_FILE = OYWorkGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
