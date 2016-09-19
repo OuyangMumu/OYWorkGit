@@ -39,6 +39,7 @@
     NSLog(@"isNeedStop === yes");
     sleep(2);
     
+    
     SEL sel = NSSelectorFromString(self.selector);
     
     if ([self.objClass respondsToSelector:sel])

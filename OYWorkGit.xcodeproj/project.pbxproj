@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4C245397291C5C7DDA63357A /* Pods_OYWorkGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AB464C91A01590BE89BC7B /* Pods_OYWorkGit.framework */; };
+		E61E40581D8EA571005DCF5D /* Row8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E61E40571D8EA571005DCF5D /* Row8ViewController.m */; };
+		E61E405B1D8EA6A2005DCF5D /* OY_PopTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61E405A1D8EA6A2005DCF5D /* OY_PopTableView.m */; };
 		E6210CAB1D866B9E0093834D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CAA1D866B9E0093834D /* main.m */; };
 		E6210CB11D866B9E0093834D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CB01D866B9E0093834D /* ViewController.m */; };
 		E6210CB41D866B9E0093834D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6210CB21D866B9E0093834D /* Main.storyboard */; };
 		E6210CB71D866B9E0093834D /* OYWorkGit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6210CB51D866B9E0093834D /* OYWorkGit.xcdatamodeld */; };
-		E6210CB91D866B9E0093834D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6210CB81D866B9E0093834D /* Assets.xcassets */; };
 		E6210CBC1D866B9E0093834D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6210CBA1D866B9E0093834D /* LaunchScreen.storyboard */; };
 		E6210CC71D866B9E0093834D /* OYWorkGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CC61D866B9E0093834D /* OYWorkGitTests.m */; };
 		E6210CD21D866B9E0093834D /* OYWorkGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210CD11D866B9E0093834D /* OYWorkGitUITests.m */; };
@@ -29,6 +30,7 @@
 		E6210D2E1D867F800093834D /* Row4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D131D867F800093834D /* Row4ViewController.m */; };
 		E6210D2F1D867F800093834D /* Row5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D151D867F800093834D /* Row5ViewController.m */; };
 		E6210D301D867F800093834D /* Row6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D171D867F800093834D /* Row6ViewController.m */; };
+		E63F6FB11D8FA256005AA665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63F6FB01D8FA256005AA665 /* Assets.xcassets */; };
 		E6D6482F1D8811000031D4AE /* Row7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D6482E1D8811000031D4AE /* Row7ViewController.m */; };
 		E6D648371D8813090031D4AE /* OY_ActionStopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D648361D8813090031D4AE /* OY_ActionStopButton.m */; };
 /* End PBXBuildFile section */
@@ -54,13 +56,16 @@
 		3FEC9358A8D1735BE07BD387 /* Pods-OYWorkGit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OYWorkGit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OYWorkGit/Pods-OYWorkGit.debug.xcconfig"; sourceTree = "<group>"; };
 		85AB464C91A01590BE89BC7B /* Pods_OYWorkGit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OYWorkGit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91ADFBDABC5664357D54217C /* Pods-OYWorkGit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OYWorkGit.release.xcconfig"; path = "Pods/Target Support Files/Pods-OYWorkGit/Pods-OYWorkGit.release.xcconfig"; sourceTree = "<group>"; };
+		E61E40561D8EA571005DCF5D /* Row8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row8ViewController.h; sourceTree = "<group>"; };
+		E61E40571D8EA571005DCF5D /* Row8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row8ViewController.m; sourceTree = "<group>"; };
+		E61E40591D8EA6A2005DCF5D /* OY_PopTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OY_PopTableView.h; sourceTree = "<group>"; };
+		E61E405A1D8EA6A2005DCF5D /* OY_PopTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OY_PopTableView.m; sourceTree = "<group>"; };
 		E6210CA61D866B9E0093834D /* OYWorkGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OYWorkGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6210CAA1D866B9E0093834D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E6210CAF1D866B9E0093834D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E6210CB01D866B9E0093834D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E6210CB31D866B9E0093834D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6210CB61D866B9E0093834D /* OYWorkGit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OYWorkGit.xcdatamodel; sourceTree = "<group>"; };
-		E6210CB81D866B9E0093834D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6210CBB1D866B9E0093834D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6210CBD1D866B9E0093834D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6210CC21D866B9E0093834D /* OYWorkGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OYWorkGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +98,7 @@
 		E6210D151D867F800093834D /* Row5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row5ViewController.m; sourceTree = "<group>"; };
 		E6210D161D867F800093834D /* Row6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row6ViewController.h; sourceTree = "<group>"; };
 		E6210D171D867F800093834D /* Row6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row6ViewController.m; sourceTree = "<group>"; };
+		E63F6FB01D8FA256005AA665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		E6D6482D1D8811000031D4AE /* Row7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row7ViewController.h; sourceTree = "<group>"; };
 		E6D6482E1D8811000031D4AE /* Row7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row7ViewController.m; sourceTree = "<group>"; };
 		E6D648351D8813090031D4AE /* OY_ActionStopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OY_ActionStopButton.h; sourceTree = "<group>"; };
@@ -167,6 +173,7 @@
 		E6210CA81D866B9E0093834D /* OYWorkGit */ = {
 			isa = PBXGroup;
 			children = (
+				E63F6FB01D8FA256005AA665 /* Assets.xcassets */,
 				E6210CE21D867F800093834D /* Base.lproj */,
 				E6210CE71D867F800093834D /* BaseClass */,
 				E6210CEE1D867F800093834D /* Category */,
@@ -174,7 +181,6 @@
 				E6210CAF1D866B9E0093834D /* ViewController.h */,
 				E6210CB01D866B9E0093834D /* ViewController.m */,
 				E6210CB21D866B9E0093834D /* Main.storyboard */,
-				E6210CB81D866B9E0093834D /* Assets.xcassets */,
 				E6210CBA1D866B9E0093834D /* LaunchScreen.storyboard */,
 				E6210CBD1D866B9E0093834D /* Info.plist */,
 				E6210CB51D866B9E0093834D /* OYWorkGit.xcdatamodeld */,
@@ -268,6 +274,8 @@
 				E6210D171D867F800093834D /* Row6ViewController.m */,
 				E6D6482D1D8811000031D4AE /* Row7ViewController.h */,
 				E6D6482E1D8811000031D4AE /* Row7ViewController.m */,
+				E61E40561D8EA571005DCF5D /* Row8ViewController.h */,
+				E61E40571D8EA571005DCF5D /* Row8ViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -277,6 +285,8 @@
 			children = (
 				E6D648351D8813090031D4AE /* OY_ActionStopButton.h */,
 				E6D648361D8813090031D4AE /* OY_ActionStopButton.m */,
+				E61E40591D8EA6A2005DCF5D /* OY_PopTableView.h */,
+				E61E405A1D8EA6A2005DCF5D /* OY_PopTableView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -351,6 +361,7 @@
 				TargetAttributes = {
 					E6210CA51D866B9E0093834D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 78TPHVCJDH;
 					};
 					E6210CC11D866B9E0093834D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -390,8 +401,8 @@
 				E6210CBC1D866B9E0093834D /* LaunchScreen.storyboard in Resources */,
 				E6210D191D867F800093834D /* Main.storyboard in Resources */,
 				E6210D181D867F800093834D /* LaunchScreen.storyboard in Resources */,
-				E6210CB91D866B9E0093834D /* Assets.xcassets in Resources */,
 				E6210CB41D866B9E0093834D /* Main.storyboard in Resources */,
+				E63F6FB11D8FA256005AA665 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,11 +478,13 @@
 				E6210D301D867F800093834D /* Row6ViewController.m in Sources */,
 				E6210D2F1D867F800093834D /* Row5ViewController.m in Sources */,
 				E6210D1E1D867F800093834D /* NSString+OYString.m in Sources */,
+				E61E40581D8EA571005DCF5D /* Row8ViewController.m in Sources */,
 				E6210D1A1D867F800093834D /* AppDelegate.m in Sources */,
 				E6210CB11D866B9E0093834D /* ViewController.m in Sources */,
 				E6210D2D1D867F800093834D /* Row3ViewController.m in Sources */,
 				E6210CB71D866B9E0093834D /* OYWorkGit.xcdatamodeld in Sources */,
 				E6D648371D8813090031D4AE /* OY_ActionStopButton.m in Sources */,
+				E61E405B1D8EA6A2005DCF5D /* OY_PopTableView.m in Sources */,
 				E6210D2C1D867F800093834D /* Row2ViewController.m in Sources */,
 				E6210D2B1D867F800093834D /* Row1ViewController.m in Sources */,
 				E6210D2E1D867F800093834D /* Row4ViewController.m in Sources */,
@@ -639,9 +652,11 @@
 			baseConfigurationReference = 3FEC9358A8D1735BE07BD387 /* Pods-OYWorkGit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78TPHVCJDH;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Pods/PrefixHeader.pch";
 				INFOPLIST_FILE = OYWorkGit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gaojun.OYWorkGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -653,9 +668,11 @@
 			baseConfigurationReference = 91ADFBDABC5664357D54217C /* Pods-OYWorkGit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78TPHVCJDH;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Pods/PrefixHeader.pch";
 				INFOPLIST_FILE = OYWorkGit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gaojun.OYWorkGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
