@@ -23,12 +23,11 @@
     [addBtn setImageEdgeInsets:UIEdgeInsetsMake(0, 5, 0, -10)];
     [addBtn addTarget:self action:@selector(addMenu) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:addBtn];
-
 }
 
 -(void)addMenu{
-
-    [OY_PopTableView show:self.navigationItem.titleView direction:DirectionTypeDown icons:@[@"add_circle",@"add_help",@"add_like",@"add_details"] titles:@[@"学习圈子",@"常见问题",@"课程点赞",@"课程详情"]];
+    
+      [OY_PopTableView show:self.navigationItem.rightBarButtonItem.customView direction:DirectionTypeDown icons:@[@"add_circle",@"add_help",@"add_like",@"add_details"] titles:@[@"学习圈子",@"常见问题",@"课程点赞",@"课程详情"]];
 }
 
 - (void)didReceiveMemoryWarning {

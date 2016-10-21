@@ -31,8 +31,14 @@
 		E6210D2F1D867F800093834D /* Row5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D151D867F800093834D /* Row5ViewController.m */; };
 		E6210D301D867F800093834D /* Row6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6210D171D867F800093834D /* Row6ViewController.m */; };
 		E63F6FB11D8FA256005AA665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63F6FB01D8FA256005AA665 /* Assets.xcassets */; };
+		E63F70011D8FCD81005AA665 /* Row9ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63F70001D8FCD81005AA665 /* Row9ViewController.m */; };
+		E63F70041D8FCE6D005AA665 /* Row901ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63F70031D8FCE6D005AA665 /* Row901ViewController.m */; };
+		E63F700F1D8FDF81005AA665 /* Row10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63F700E1D8FDF81005AA665 /* Row10ViewController.m */; };
+		E63F70131D8FE012005AA665 /* UIControl+OY_UIControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E63F70121D8FE012005AA665 /* UIControl+OY_UIControl.m */; };
+		E69E5F6E1D9141A700FEB6F2 /* Row11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69E5F6D1D9141A700FEB6F2 /* Row11ViewController.m */; };
 		E6D6482F1D8811000031D4AE /* Row7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D6482E1D8811000031D4AE /* Row7ViewController.m */; };
 		E6D648371D8813090031D4AE /* OY_ActionStopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D648361D8813090031D4AE /* OY_ActionStopButton.m */; };
+		E6DC9CE01D923A6F000ECD46 /* UIButton+OY_Button.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DC9CDF1D923A6F000ECD46 /* UIButton+OY_Button.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,10 +105,24 @@
 		E6210D161D867F800093834D /* Row6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row6ViewController.h; sourceTree = "<group>"; };
 		E6210D171D867F800093834D /* Row6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row6ViewController.m; sourceTree = "<group>"; };
 		E63F6FB01D8FA256005AA665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		E63F6FFF1D8FCD81005AA665 /* Row9ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row9ViewController.h; sourceTree = "<group>"; };
+		E63F70001D8FCD81005AA665 /* Row9ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row9ViewController.m; sourceTree = "<group>"; };
+		E63F70021D8FCE6D005AA665 /* Row901ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row901ViewController.h; sourceTree = "<group>"; };
+		E63F70031D8FCE6D005AA665 /* Row901ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row901ViewController.m; sourceTree = "<group>"; };
+		E63F700D1D8FDF81005AA665 /* Row10ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row10ViewController.h; sourceTree = "<group>"; };
+		E63F700E1D8FDF81005AA665 /* Row10ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row10ViewController.m; sourceTree = "<group>"; };
+		E63F70111D8FE012005AA665 /* UIControl+OY_UIControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+OY_UIControl.h"; sourceTree = "<group>"; };
+		E63F70121D8FE012005AA665 /* UIControl+OY_UIControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+OY_UIControl.m"; sourceTree = "<group>"; };
+		E69E5F6C1D9141A700FEB6F2 /* Row11ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row11ViewController.h; sourceTree = "<group>"; };
+		E69E5F6D1D9141A700FEB6F2 /* Row11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row11ViewController.m; sourceTree = "<group>"; };
+		E6AF97491D9E6DCE0048779D /* OY_DefineClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OY_DefineClass.h; sourceTree = "<group>"; };
+		E6AF974A1D9E6DCE0048779D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E6D6482D1D8811000031D4AE /* Row7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row7ViewController.h; sourceTree = "<group>"; };
 		E6D6482E1D8811000031D4AE /* Row7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row7ViewController.m; sourceTree = "<group>"; };
 		E6D648351D8813090031D4AE /* OY_ActionStopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OY_ActionStopButton.h; sourceTree = "<group>"; };
 		E6D648361D8813090031D4AE /* OY_ActionStopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OY_ActionStopButton.m; sourceTree = "<group>"; };
+		E6DC9CDE1D923A6F000ECD46 /* UIButton+OY_Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+OY_Button.h"; sourceTree = "<group>"; };
+		E6DC9CDF1D923A6F000ECD46 /* UIButton+OY_Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+OY_Button.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +212,8 @@
 		E6210CA91D866B9E0093834D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E6AF97491D9E6DCE0048779D /* OY_DefineClass.h */,
+				E6AF974A1D9E6DCE0048779D /* PrefixHeader.pch */,
 				E6210CAA1D866B9E0093834D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -276,6 +298,14 @@
 				E6D6482E1D8811000031D4AE /* Row7ViewController.m */,
 				E61E40561D8EA571005DCF5D /* Row8ViewController.h */,
 				E61E40571D8EA571005DCF5D /* Row8ViewController.m */,
+				E63F6FFF1D8FCD81005AA665 /* Row9ViewController.h */,
+				E63F70001D8FCD81005AA665 /* Row9ViewController.m */,
+				E63F70021D8FCE6D005AA665 /* Row901ViewController.h */,
+				E63F70031D8FCE6D005AA665 /* Row901ViewController.m */,
+				E63F700D1D8FDF81005AA665 /* Row10ViewController.h */,
+				E63F700E1D8FDF81005AA665 /* Row10ViewController.m */,
+				E69E5F6C1D9141A700FEB6F2 /* Row11ViewController.h */,
+				E69E5F6D1D9141A700FEB6F2 /* Row11ViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -287,6 +317,10 @@
 				E6D648361D8813090031D4AE /* OY_ActionStopButton.m */,
 				E61E40591D8EA6A2005DCF5D /* OY_PopTableView.h */,
 				E61E405A1D8EA6A2005DCF5D /* OY_PopTableView.m */,
+				E63F70111D8FE012005AA665 /* UIControl+OY_UIControl.h */,
+				E63F70121D8FE012005AA665 /* UIControl+OY_UIControl.m */,
+				E6DC9CDE1D923A6F000ECD46 /* UIButton+OY_Button.h */,
+				E6DC9CDF1D923A6F000ECD46 /* UIButton+OY_Button.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -362,6 +396,7 @@
 					E6210CA51D866B9E0093834D = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 78TPHVCJDH;
+						LastSwiftMigration = 0800;
 					};
 					E6210CC11D866B9E0093834D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -478,12 +513,16 @@
 				E6210D301D867F800093834D /* Row6ViewController.m in Sources */,
 				E6210D2F1D867F800093834D /* Row5ViewController.m in Sources */,
 				E6210D1E1D867F800093834D /* NSString+OYString.m in Sources */,
+				E63F70041D8FCE6D005AA665 /* Row901ViewController.m in Sources */,
 				E61E40581D8EA571005DCF5D /* Row8ViewController.m in Sources */,
+				E63F70131D8FE012005AA665 /* UIControl+OY_UIControl.m in Sources */,
 				E6210D1A1D867F800093834D /* AppDelegate.m in Sources */,
 				E6210CB11D866B9E0093834D /* ViewController.m in Sources */,
 				E6210D2D1D867F800093834D /* Row3ViewController.m in Sources */,
+				E63F70011D8FCD81005AA665 /* Row9ViewController.m in Sources */,
 				E6210CB71D866B9E0093834D /* OYWorkGit.xcdatamodeld in Sources */,
 				E6D648371D8813090031D4AE /* OY_ActionStopButton.m in Sources */,
+				E63F700F1D8FDF81005AA665 /* Row10ViewController.m in Sources */,
 				E61E405B1D8EA6A2005DCF5D /* OY_PopTableView.m in Sources */,
 				E6210D2C1D867F800093834D /* Row2ViewController.m in Sources */,
 				E6210D2B1D867F800093834D /* Row1ViewController.m in Sources */,
@@ -493,6 +532,8 @@
 				E6210D1C1D867F800093834D /* OY_ParentsNaviController.m in Sources */,
 				E6D6482F1D8811000031D4AE /* Row7ViewController.m in Sources */,
 				E6210D1D1D867F800093834D /* NSMutableAttributedString+OYAttributedStrig.m in Sources */,
+				E69E5F6E1D9141A700FEB6F2 /* Row11ViewController.m in Sources */,
+				E6DC9CE01D923A6F000ECD46 /* UIButton+OY_Button.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +693,7 @@
 			baseConfigurationReference = 3FEC9358A8D1735BE07BD387 /* Pods-OYWorkGit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 78TPHVCJDH;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Pods/PrefixHeader.pch";
@@ -660,6 +702,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gaojun.OYWorkGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -668,6 +712,7 @@
 			baseConfigurationReference = 91ADFBDABC5664357D54217C /* Pods-OYWorkGit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 78TPHVCJDH;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Pods/PrefixHeader.pch";
@@ -676,6 +721,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gaojun.OYWorkGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

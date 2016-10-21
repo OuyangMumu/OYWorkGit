@@ -17,6 +17,10 @@ static const CGFloat rowH = 50;
 @property (nonatomic,strong) UITableView *mainTable;
 @property (nonatomic,strong) NSArray *iconImg;
 @property (nonatomic,strong) NSArray *titleArr;
+@property (nonatomic,strong) UIView *target;
+@property (nonatomic,assign) DirectionType direction;
+
+
 @end
 
 @implementation OY_PopTableView
@@ -52,8 +56,13 @@ singleM(OY_PopTableView);
 
 -(void)buildUI{
     
-    [self addSubview:self.rectView];
+    UIWindow * window=[[[UIApplication sharedApplication] delegate] window];
+    CGRect rect=[self.target convertRect: self.target.bounds toView:window];
+    NSLog(@"NSStringFromCGRect = %@",NSStringFromCGRect(rect));
     
+    
+    
+    [self addSubview:self.rectView];
     // 画三角形
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint:CGPointMake(width - 24, 11)];
@@ -104,13 +113,14 @@ singleM(OY_PopTableView);
     [OY_PopTableView dismiss];
 }
 
-+(void)show:(UIView *)target direction:(DirectionType)type icons:(NSArray *)icons titles:(NSArray *)titles{
-
++(void)show:(UIView *)target direction:(DirectionType)direction icons:(NSArray *)icons titles:(NSArray *)titles{
+    
     OY_PopTableView *popView = [OY_PopTableView shareOY_PopTableView];
     popView.frame = [UIApplication sharedApplication].keyWindow.bounds;
     popView.iconImg = icons;
     popView.titleArr = titles;
-    
+    popView.target = target;
+    popView.direction = direction;
     UIButton *btn  = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = popView.frame;
     [btn addTarget:[self class] action:@selector(dismiss) forControlEvents:UIControlEventTouchUpInside];
@@ -120,6 +130,8 @@ singleM(OY_PopTableView);
     
     [[UIApplication sharedApplication].keyWindow addSubview:popView];
 }
+
+
 
 +(void)dismiss{
 
