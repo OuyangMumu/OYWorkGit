@@ -15,11 +15,12 @@
 #import <MJRefresh/MJRefresh.h>
 #import <MBProgressHUD/MBProgressHUD.h>
 #import <MagicalRecord/MagicalRecord.h>
+
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #import "NSMutableAttributedString+OYAttributedStrig.h"
 
 #import "OY_DefineClass.h"
-
+#import "UIView+OYView"
 #endif /* PrefixHeader_pch */

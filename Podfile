@@ -4,8 +4,7 @@ use_frameworks!
 
 
 def ouyanggaojun
-
-
+    
 pod 'MJRefresh', '~> 3.1.12'
 pod 'SDWebImage', '~> 3.8.2'
 pod 'IQKeyboardManager', '~> 4.0.5'
@@ -22,7 +21,6 @@ pod 'OHHTTPStubs', '~> 5.2.1'
 pod 'AsyncDisplayKit', '~> 1.9.90'
 pod 'TZImagePickerController'
 pod 'UITableView+FDTemplateLayoutCell'
-
 
 end
 

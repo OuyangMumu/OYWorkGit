@@ -35,6 +35,10 @@
 		E63F70041D8FCE6D005AA665 /* Row901ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63F70031D8FCE6D005AA665 /* Row901ViewController.m */; };
 		E63F700F1D8FDF81005AA665 /* Row10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63F700E1D8FDF81005AA665 /* Row10ViewController.m */; };
 		E63F70131D8FE012005AA665 /* UIControl+OY_UIControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E63F70121D8FE012005AA665 /* UIControl+OY_UIControl.m */; };
+		E697C5301DE455380011C784 /* UIView+OYView.m in Sources */ = {isa = PBXBuildFile; fileRef = E697C52F1DE455380011C784 /* UIView+OYView.m */; };
+		E697C5331DE457DD0011C784 /* Row12ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E697C5321DE457DD0011C784 /* Row12ViewController.m */; };
+		E697C5361DE457F90011C784 /* Row12ViewController-2.m in Sources */ = {isa = PBXBuildFile; fileRef = E697C5351DE457F90011C784 /* Row12ViewController-2.m */; };
+		E697C5391DE45C2E0011C784 /* Row13ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E697C5381DE45C2E0011C784 /* Row13ViewController.m */; };
 		E69E5F6E1D9141A700FEB6F2 /* Row11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69E5F6D1D9141A700FEB6F2 /* Row11ViewController.m */; };
 		E6D6482F1D8811000031D4AE /* Row7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D6482E1D8811000031D4AE /* Row7ViewController.m */; };
 		E6D648371D8813090031D4AE /* OY_ActionStopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D648361D8813090031D4AE /* OY_ActionStopButton.m */; };
@@ -113,6 +117,14 @@
 		E63F700E1D8FDF81005AA665 /* Row10ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row10ViewController.m; sourceTree = "<group>"; };
 		E63F70111D8FE012005AA665 /* UIControl+OY_UIControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+OY_UIControl.h"; sourceTree = "<group>"; };
 		E63F70121D8FE012005AA665 /* UIControl+OY_UIControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+OY_UIControl.m"; sourceTree = "<group>"; };
+		E697C52E1DE455380011C784 /* UIView+OYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+OYView.h"; sourceTree = "<group>"; };
+		E697C52F1DE455380011C784 /* UIView+OYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+OYView.m"; sourceTree = "<group>"; };
+		E697C5311DE457DD0011C784 /* Row12ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row12ViewController.h; sourceTree = "<group>"; };
+		E697C5321DE457DD0011C784 /* Row12ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row12ViewController.m; sourceTree = "<group>"; };
+		E697C5341DE457F90011C784 /* Row12ViewController-2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Row12ViewController-2.h"; sourceTree = "<group>"; };
+		E697C5351DE457F90011C784 /* Row12ViewController-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Row12ViewController-2.m"; sourceTree = "<group>"; };
+		E697C5371DE45C2E0011C784 /* Row13ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row13ViewController.h; sourceTree = "<group>"; };
+		E697C5381DE45C2E0011C784 /* Row13ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row13ViewController.m; sourceTree = "<group>"; };
 		E69E5F6C1D9141A700FEB6F2 /* Row11ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row11ViewController.h; sourceTree = "<group>"; };
 		E69E5F6D1D9141A700FEB6F2 /* Row11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row11ViewController.m; sourceTree = "<group>"; };
 		E6AF97491D9E6DCE0048779D /* OY_DefineClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OY_DefineClass.h; sourceTree = "<group>"; };
@@ -266,6 +278,8 @@
 				E6210CF01D867F800093834D /* NSMutableAttributedString+OYAttributedStrig.m */,
 				E6210CF11D867F800093834D /* NSString+OYString.h */,
 				E6210CF21D867F800093834D /* NSString+OYString.m */,
+				E697C52E1DE455380011C784 /* UIView+OYView.h */,
+				E697C52F1DE455380011C784 /* UIView+OYView.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -306,6 +320,12 @@
 				E63F700E1D8FDF81005AA665 /* Row10ViewController.m */,
 				E69E5F6C1D9141A700FEB6F2 /* Row11ViewController.h */,
 				E69E5F6D1D9141A700FEB6F2 /* Row11ViewController.m */,
+				E697C5311DE457DD0011C784 /* Row12ViewController.h */,
+				E697C5321DE457DD0011C784 /* Row12ViewController.m */,
+				E697C5341DE457F90011C784 /* Row12ViewController-2.h */,
+				E697C5351DE457F90011C784 /* Row12ViewController-2.m */,
+				E697C5371DE45C2E0011C784 /* Row13ViewController.h */,
+				E697C5381DE45C2E0011C784 /* Row13ViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -515,12 +535,16 @@
 				E6210D1E1D867F800093834D /* NSString+OYString.m in Sources */,
 				E63F70041D8FCE6D005AA665 /* Row901ViewController.m in Sources */,
 				E61E40581D8EA571005DCF5D /* Row8ViewController.m in Sources */,
+				E697C5301DE455380011C784 /* UIView+OYView.m in Sources */,
 				E63F70131D8FE012005AA665 /* UIControl+OY_UIControl.m in Sources */,
+				E697C5391DE45C2E0011C784 /* Row13ViewController.m in Sources */,
 				E6210D1A1D867F800093834D /* AppDelegate.m in Sources */,
+				E697C5361DE457F90011C784 /* Row12ViewController-2.m in Sources */,
 				E6210CB11D866B9E0093834D /* ViewController.m in Sources */,
 				E6210D2D1D867F800093834D /* Row3ViewController.m in Sources */,
 				E63F70011D8FCD81005AA665 /* Row9ViewController.m in Sources */,
 				E6210CB71D866B9E0093834D /* OYWorkGit.xcdatamodeld in Sources */,
+				E697C5331DE457DD0011C784 /* Row12ViewController.m in Sources */,
 				E6D648371D8813090031D4AE /* OY_ActionStopButton.m in Sources */,
 				E63F700F1D8FDF81005AA665 /* Row10ViewController.m in Sources */,
 				E61E405B1D8EA6A2005DCF5D /* OY_PopTableView.m in Sources */,
