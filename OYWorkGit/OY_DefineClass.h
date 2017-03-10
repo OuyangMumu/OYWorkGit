@@ -158,5 +158,7 @@ return _instance;\
 
 
 
+#define ReachabilityStatus [Reachability reachabilityForInternetConnection] currentReachabilityStatus]
+
 
 #endif /* OY_DefineClass_h */

@@ -21,6 +21,7 @@ pod 'OHHTTPStubs', '~> 5.2.1'
 pod 'AsyncDisplayKit', '~> 1.9.90'
 pod 'TZImagePickerController'
 pod 'UITableView+FDTemplateLayoutCell'
+pod 'JDStatusBarNotification', '~> 1.5.5'
 
 end
 

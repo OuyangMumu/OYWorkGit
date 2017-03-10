@@ -7,19 +7,40 @@
 //
 
 #import "Row13ViewController.h"
+#import "UITableView+Swizzling.h"
 
-@interface Row13ViewController ()
+@interface Row13ViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic,strong) UITableView *mainTable;
 
 @end
 
 @implementation Row13ViewController
 
+
+-(UITableView *)mainTable{
+
+    if (!_mainTable) {
+        _mainTable  = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        
+        _mainTable.delegate = self;
+        _mainTable.dataSource =self;
+        [_mainTable  setReloadBlock:^{
+            NSLog(@"setReloadBlock");
+        }];
+      
+    }
+    return _mainTable;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:self.mainTable];
     //方法一
     NSString *appDomain = [[NSBundle mainBundle] bundleIdentifier];
     [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:appDomain];
-    
     
 }
 
@@ -41,14 +62,40 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark ========= dataSource ===========
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    
+    return 1;
 }
-*/
+
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+    return 0;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    return 100;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if(cell==nil){
+        cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault      reuseIdentifier:@"cell"];
+    }
+    
+    
+    return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 
 @end

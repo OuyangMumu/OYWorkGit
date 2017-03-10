@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
+
 
 @end
 
@@ -18,11 +20,24 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+
+ 
     if (launchOptions[UIApplicationLaunchOptionsLocalNotificationKey]) {
         UILocalNotification *localNotifi = launchOptions[UIApplicationLaunchOptionsLocalNotificationKey];
         [self changeLocalNotifi:localNotifi];
     }
     
+    OY_ParentsNaviController *nav = [[OY_ParentsNaviController alloc]initWithRootViewController:[ViewController new]];
+    nav.tabBarItem.title = @"1";
+    
+    UITabBarController *tab = [UITabBarController new];
+    [tab addChildViewController:nav];
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = tab;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

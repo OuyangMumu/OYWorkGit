@@ -27,7 +27,7 @@
 -(NSArray *)dataSource{
 
     if (!_dataSource) {
-        _dataSource = @[@"改变一句话中的某些字的颜色",@"正则表达式",@"APP Stroe 评分  ||  单例",@"UITableView分割线",@"注册通知",@"SDWebImage",@"拦截按钮事件",@"pop下拉弹框",@"iOS 10 新特性",@"控制器重复跳转问题",@"Runtime",@"获取视图之上的控制器",@"删除NSUserDefaults所有记录"];
+        _dataSource = @[@"改变一句话中的某些字的颜色1",@"正则表达式2",@"APP Stroe 评分  ||  单例3",@"UITableView分割线4",@"注册通知5",@"SDWebImage6",@"拦截按钮事件7",@"pop下拉弹框8",@"iOS 10 新特性9",@"控制器重复跳转问题10",@"Runtime11",@"获取视图之上的控制器12",@"删除NSUserDefaults所有记录13",@"JDStatusBarNotification14"];
     }
     return _dataSource;
 }
@@ -35,7 +35,7 @@
 -(NSArray *)controllerArr{
 
     if (!_controllerArr) {
-        _controllerArr = @[@"Row1ViewController",@"Row2ViewController",@"Row3ViewController",@"Row4ViewController",@"Row5ViewController",@"Row6ViewController",@"Row7ViewController",@"Row8ViewController",@"Row9ViewController",@"Row10ViewController",@"Row11ViewController",@"Row12ViewController",@"Row13ViewController"];
+        _controllerArr = @[@"Row1ViewController",@"Row2ViewController",@"Row3ViewController",@"Row4ViewController",@"Row5ViewController",@"Row6ViewController",@"Row7ViewController",@"Row8ViewController",@"Row9ViewController",@"Row10ViewController",@"Row11ViewController",@"Row12ViewController",@"Row13ViewController",@"Row14ViewController"];
     }
     return _controllerArr;
 }
@@ -53,7 +53,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.mainTable];
     
 }
@@ -83,7 +83,7 @@
     if(cell==nil){
         cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault  reuseIdentifier:@"cell"];
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"%@ --- %ld",self.dataSource[indexPath.row],indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@ --- %ld",self.dataSource[indexPath.row],indexPath.row+1];
    
     return cell;
 

@@ -34,11 +34,7 @@
 }
 - (void)checkIsLogin
 {
-    
-    
     NSLog(@"isNeedStop === yes");
-    sleep(2);
-    
     
     SEL sel = NSSelectorFromString(self.selector);
     
