@@ -22,7 +22,7 @@ pod 'AsyncDisplayKit', '~> 1.9.90'
 pod 'TZImagePickerController'
 pod 'UITableView+FDTemplateLayoutCell'
 pod 'JDStatusBarNotification', '~> 1.5.5'
-
+pod 'FBMemoryProfiler'
 end
 
 target :OYWorkGit do

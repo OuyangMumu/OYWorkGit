@@ -1,6 +1,17 @@
+#ifdef __OBJC__
 #import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
 
 #import "DKNightVersion.h"
+#import "DKAlpha.h"
 #import "DKColor.h"
 #import "DKImage.h"
 #import "DKNightVersionManager.h"
@@ -11,6 +22,7 @@
 #import "EXTKeyPathCoding.h"
 #import "metamacros.h"
 #import "CALayer+Night.h"
+#import "CAShapeLayer+Night.h"
 #import "CoreAnimation+Night.h"
 #import "UIBarButtonItem+Night.h"
 #import "UIControl+Night.h"

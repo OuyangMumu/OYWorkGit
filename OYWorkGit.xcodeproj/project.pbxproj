@@ -39,7 +39,7 @@
 		E697C5331DE457DD0011C784 /* Row12ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E697C5321DE457DD0011C784 /* Row12ViewController.m */; };
 		E697C5361DE457F90011C784 /* Row12ViewController-2.m in Sources */ = {isa = PBXBuildFile; fileRef = E697C5351DE457F90011C784 /* Row12ViewController-2.m */; };
 		E697C5391DE45C2E0011C784 /* Row13ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E697C5381DE45C2E0011C784 /* Row13ViewController.m */; };
-		E69E5F6E1D9141A700FEB6F2 /* Row11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69E5F6D1D9141A700FEB6F2 /* Row11ViewController.m */; };
+		E69E5F6E1D9141A700FEB6F2 /* Row11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69E5F6D1D9141A700FEB6F2 /* Row11ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E6D6482F1D8811000031D4AE /* Row7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D6482E1D8811000031D4AE /* Row7ViewController.m */; };
 		E6D648371D8813090031D4AE /* OY_ActionStopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D648361D8813090031D4AE /* OY_ActionStopButton.m */; };
 		E6DC9CE01D923A6F000ECD46 /* UIButton+OY_Button.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DC9CDF1D923A6F000ECD46 /* UIButton+OY_Button.m */; };
@@ -542,7 +542,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

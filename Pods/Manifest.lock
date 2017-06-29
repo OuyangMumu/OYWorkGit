@@ -38,21 +38,25 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
-  - DKNightVersion (2.4.2):
-    - DKNightVersion/Core (= 2.4.2)
-    - DKNightVersion/CoreAnimation (= 2.4.2)
-    - DKNightVersion/UIKit (= 2.4.2)
-  - DKNightVersion/Core (2.4.2):
-    - DKNightVersion/Core/DeallocBlockExecutor (= 2.4.2)
-    - DKNightVersion/Core/extobjc (= 2.4.2)
-  - DKNightVersion/Core/DeallocBlockExecutor (2.4.2)
-  - DKNightVersion/Core/extobjc (2.4.2)
-  - DKNightVersion/CoreAnimation (2.4.2):
+  - DKNightVersion (2.4.3):
+    - DKNightVersion/Core (= 2.4.3)
+    - DKNightVersion/CoreAnimation (= 2.4.3)
+    - DKNightVersion/UIKit (= 2.4.3)
+  - DKNightVersion/Core (2.4.3):
+    - DKNightVersion/Core/DeallocBlockExecutor (= 2.4.3)
+    - DKNightVersion/Core/extobjc (= 2.4.3)
+  - DKNightVersion/Core/DeallocBlockExecutor (2.4.3)
+  - DKNightVersion/Core/extobjc (2.4.3)
+  - DKNightVersion/CoreAnimation (2.4.3):
     - DKNightVersion/Core
-  - DKNightVersion/UIKit (2.4.2):
+  - DKNightVersion/UIKit (2.4.3):
     - DKNightVersion/Core
+  - FBAllocationTracker (0.1.5)
+  - FBMemoryProfiler (0.1.3):
+    - FBAllocationTracker (~> 0.1)
+    - FBRetainCycleDetector (~> 0.1)
   - FBRetainCycleDetector (0.1.3)
-  - IQKeyboardManager (4.0.7)
+  - IQKeyboardManager (4.0.9)
   - JDStatusBarNotification (1.5.5)
   - libextobjc (0.4.1):
     - libextobjc/EXTADT (= 0.4.1)
@@ -95,19 +99,19 @@ PODS:
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
-  - OHHTTPStubs (5.2.2):
-    - OHHTTPStubs/Default (= 5.2.2)
-  - OHHTTPStubs/Core (5.2.2)
-  - OHHTTPStubs/Default (5.2.2):
+  - OHHTTPStubs (5.2.3):
+    - OHHTTPStubs/Default (= 5.2.3)
+  - OHHTTPStubs/Core (5.2.3)
+  - OHHTTPStubs/Default (5.2.3):
     - OHHTTPStubs/Core
     - OHHTTPStubs/JSON
     - OHHTTPStubs/NSURLSession
     - OHHTTPStubs/OHPathHelpers
-  - OHHTTPStubs/JSON (5.2.2):
+  - OHHTTPStubs/JSON (5.2.3):
     - OHHTTPStubs/Core
-  - OHHTTPStubs/NSURLSession (5.2.2):
+  - OHHTTPStubs/NSURLSession (5.2.3):
     - OHHTTPStubs/Core
-  - OHHTTPStubs/OHPathHelpers (5.2.2)
+  - OHHTTPStubs/OHPathHelpers (5.2.3)
   - PINCache (3.0.1-beta)
   - PINRemoteImage/Core (3.0.0-beta.3):
     - PINCache (>= 3.0.0-beta)
@@ -116,15 +120,16 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
-  - TZImagePickerController (1.7.1)
+  - TZImagePickerController (1.7.9)
   - UITableView+FDTemplateLayoutCell (1.4)
-  - Wonderful (1.2.0)
+  - Wonderful (1.2.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - AsyncDisplayKit (~> 1.9.90)
   - BlocksKit (~> 2.2.5)
   - DKNightVersion (~> 2.4.0)
+  - FBMemoryProfiler
   - FBRetainCycleDetector (~> 0.1.3)
   - IQKeyboardManager (~> 4.0.5)
   - JDStatusBarNotification (~> 1.5.5)
@@ -143,23 +148,25 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   AsyncDisplayKit: 49d94f5739669d666ff7cdc3430f43f0b2cfbeaf
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
-  DKNightVersion: a211bacb8d6a9677722aaf93e292a4e5908490c1
+  DKNightVersion: eaa80cc4014b4bae7d4b535fd87ecc6a3c2767b3
+  FBAllocationTracker: dfdca3f71aceca6a85e95e3c6ec76a9785eba0f1
+  FBMemoryProfiler: 623fc5f8a61f7d02ec75c87e3b97c90f621d8b02
   FBRetainCycleDetector: f0c7b290bf48ae77f6ae060843ce34ae341781eb
-  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
   JDStatusBarNotification: 2b4f29bd68a60d7aa2f190b5265f1ce59c18aaf8
   libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
-  OHHTTPStubs: 34d9d0994e64fcf8552dbfade5ce82ada913ee31
+  OHHTTPStubs: e238cd5b66d8efa51c861db45895de8fe079f4a7
   PINCache: 6911fe422a633e18b3d3ddf2bd4f0e55e36e2892
   PINRemoteImage: 308731aa6534500e58fc211b9cc2bb7252df25ba
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
-  TZImagePickerController: cbfd57ba947263759b860f74132dd1bc33125afc
+  TZImagePickerController: 0a8ff228d287ebdd7d485e8c42a2a932894f1fba
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
-  Wonderful: 8f8737eb8d2c32264110e91659095cb5c8bff223
+  Wonderful: e46da4dd601c3ae08da576e451be8f4dc740c206
 
-PODFILE CHECKSUM: ae948d59f095c12a15813cf260b3e513cd9c8923
+PODFILE CHECKSUM: 8f02995a769124e3b831e96c973a994aae166c34
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.1.beta.1

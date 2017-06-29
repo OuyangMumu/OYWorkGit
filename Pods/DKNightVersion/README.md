@@ -74,15 +74,16 @@ Import DKNightVersion header file
 
 ## Usage
 
-Checkout `DKColorTable.txt` file in your project, which locates in `Pods/DKNightVersion/Resources/DKNightVersion.txt`
-
+Checkout `DKColorTable.txt` file in your project, which locates in `Pods/DKNightVersion/Resources/DKNightVersion.txt`.
 ```
 NORMAL   NIGHT
 #ffffff  #343434 BG
 #aaaaaa  #313131 SEP
 ```
 
-And then, set color picker like this
+> You can also create another color table file, and specify it with [DKColorTable](#dkcolortable).
+
+And then, set color picker like this with `DKColorPickerWithKey`, which generates a DKColorPicker block
 
 ```objectivec
 self.view.dk_backgroundColorPicker = DKColorPickerWithKey(BG);
@@ -94,7 +95,7 @@ After the current theme version change to `DKThemeVersionNight`, the view backgr
 [DKNightVersionManager nightFalling];
 ``` 
 
-or
+or change theme version by manager's property `themeVersion` which is a string
 
 ```objectivec
 DKNightVersionManager *manager = [DKNightVersionManager sharedInstance];
@@ -130,7 +131,7 @@ self.dk_manager.themeVersion = @"RED";
 
 #### Post Notification
 
-Every time the current theme version changes, `DKNightVersionManager` will post a `DKNightVersionThemeChangingNotificaiton`. If you wanna to do some customization, you can observe this notification and react with proper actions.
+Every time the current theme version changes, `DKNightVersionManager` will post a `DKNightVersionThemeChangingNotification`. If you wanna to do some customization, you can observe this notification and react with proper actions.
 
 ### DKColorPicker
 
